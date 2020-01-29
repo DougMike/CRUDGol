@@ -10,7 +10,7 @@ namespace CRUDGol.Data
 {
     public class AeronaveRepository : BaseRepository<Aeronave>, IAeronaveRepository
     {
-        public AeronaveRepository(AeroContext _context) : base(_context)
+        public AeronaveRepository(AeronaveContext _context) : base(_context)
         {
 
         }

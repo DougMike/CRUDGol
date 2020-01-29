@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\michael.santos\\Source\\Repos\\CRUDGol\\CRUDGol\\CRUDGol.csproj": {}
+    "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CRUDGol\\CRUDGol\\CRUDGol.csproj": {}
   },
   "projects": {
-    "C:\\Users\\michael.santos\\Source\\Repos\\CRUDGol\\CRUDGol\\CRUDGol.csproj": {
+    "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CRUDGol\\CRUDGol\\CRUDGol.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\michael.santos\\Source\\Repos\\CRUDGol\\CRUDGol\\CRUDGol.csproj",
+        "projectUniqueName": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CRUDGol\\CRUDGol\\CRUDGol.csproj",
         "projectName": "CRUDGol",
-        "projectPath": "C:\\Users\\michael.santos\\Source\\Repos\\CRUDGol\\CRUDGol\\CRUDGol.csproj",
-        "packagesPath": "C:\\Users\\michael.santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\michael.santos\\Source\\Repos\\CRUDGol\\CRUDGol\\obj\\",
+        "projectPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CRUDGol\\CRUDGol\\CRUDGol.csproj",
+        "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dougl\\OneDrive\\Documentos\\GitHub\\CRUDGol\\CRUDGol\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\michael.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.1.1, )"
             },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.1, )"
@@ -57,14 +61,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.1, )"
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -85,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

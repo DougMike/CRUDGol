@@ -28,7 +28,7 @@ namespace CRUDGol
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<AeroContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddDbContext<AeronaveContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
             services.AddControllers();
         }

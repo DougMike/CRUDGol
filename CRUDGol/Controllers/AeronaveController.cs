@@ -13,17 +13,17 @@ namespace CRUDGol.Controllers
     [Route("aeronave")]
     public class AeronaveController : ControllerBase
     {
-        protected IAeronaveRepository _aeroRepository;
+        protected IAeronaveRepository _aeronaveRepository;
 
         public AeronaveController(IAeronaveRepository repository)
         {
-            _aeroRepository = repository;
+            _aeronaveRepository = repository;
         }
 
         [HttpGet]
         public IEnumerable<Aeronave> Get()
         {
-            return _aeroRepository.GetAll().ToList();
+            return _aeronaveRepository.GetAll().ToList();
         }
 
         [HttpGet("selecionar/{id}")]
@@ -45,7 +45,7 @@ namespace CRUDGol.Controllers
             if (!ModelState.IsValid)
                 return null;
 
-            _aeroRepository.Add(aeronave);
+            _aeronaveRepository.Add(aeronave);
 
             return null;
         }
@@ -59,7 +59,7 @@ namespace CRUDGol.Controllers
             if (aeronave != null)
                 return null;
 
-            _aeroRepository.Update(aeronave);
+            _aeronaveRepository.Update(aeronave);
 
             return aeronave;
         }

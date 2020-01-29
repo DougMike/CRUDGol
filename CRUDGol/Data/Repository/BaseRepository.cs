@@ -9,9 +9,9 @@ namespace CRUDGol.Data.Repository
 {
     public abstract class BaseRepository<T> : IBaseRepository<T> where T : class
     {
-        protected AeroContext _context { get; set; }
+        protected AeronaveContext _context { get; set; }
 
-        public BaseRepository(AeroContext context)
+        public BaseRepository(AeronaveContext context)
         {
             _context = context;
         }
