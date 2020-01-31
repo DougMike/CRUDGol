@@ -169,3 +169,4 @@ C:\Users\dougl\OneDrive\Documentos\GitHub\CRUDGol\CRUDGol\obj\Debug\netcoreapp3.
 C:\Users\dougl\OneDrive\Documentos\GitHub\CRUDGol\CRUDGol\obj\Debug\netcoreapp3.1\CRUDGol.csproj.CopyComplete
 C:\Users\dougl\OneDrive\Documentos\GitHub\CRUDGol\CRUDGol\obj\Debug\netcoreapp3.1\CRUDGol.dll
 C:\Users\dougl\OneDrive\Documentos\GitHub\CRUDGol\CRUDGol\obj\Debug\netcoreapp3.1\CRUDGol.pdb
+C:\Users\dougl\OneDrive\Documentos\GitHub\CRUDGol\CRUDGol\obj\Debug\netcoreapp3.1\CRUDGol.csprojAssemblyReference.cache
