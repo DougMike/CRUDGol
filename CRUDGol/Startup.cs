@@ -29,7 +29,7 @@ namespace CRUDGol
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AeronaveContext>(options => options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
-            //services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+            services.AddScoped(typeof(BaseRepository<>), typeof(IBaseRepository<>));
             services.AddControllers();
         }
 

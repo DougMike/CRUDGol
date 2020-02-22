@@ -14,10 +14,12 @@ namespace CRUDGol.Controllers
     public class AeronaveController : ControllerBase
     {
         protected IAeronaveRepository _aeronaveRepository;
+        protected AeronaveContext _context;
 
         public AeronaveController(IAeronaveRepository repository)
         {
             _aeronaveRepository = repository;
+
         }
 
         [HttpGet]
